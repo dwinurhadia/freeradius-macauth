@@ -1,0 +1,7 @@
+00-11-22-33-44-55	
+55-44-33-22-11-00
+40-8d-5c-02-1f-7b
+04-01-e2-d1-b7-01
+04-18-d6-08-92-e8
+	Reply-Message = "Device with MAC Address %{Calling-Station-Id} authorized for network access"
+
