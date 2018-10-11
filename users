@@ -100,7 +100,7 @@ test Cleartext-Password := "test"
 #	Callback-Number = "9,5551212",
 #	Login-Service = Telnet,
 #	Login-TCP-Port = Telnet
-
+tes
 #
 # Another complete entry. After the user "dialbk" has logged in, the
 # connection will be broken and the user will be dialed back after which
