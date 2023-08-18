@@ -1,12 +1,11 @@
-URL Source
+# URL Source
 
-https://community.ui.com/questions/FreeRadius-MySQL-MAC-Authentication-Bypass-/fcf8ebf2-de31-4fba-b331-d968f1f14088
+Kindly please read this doc below
 
-http://wiki.freeradius.org/Mac-Auth
-
-https://community.arubanetworks.com/t5/Security/MAC-auth-via-RADIUS-need-to-set-username-in-return-attributes/td-p/24630
-
-https://carloalbertoscola.it/2019/network/security/linux/freeradius-3-setup-mysql-eap-ttls/
+    https://community.ui.com/questions/FreeRadius-MySQL-MAC-Authentication-Bypass-/fcf8ebf2-de31-4fba-b331-d968f1f14088
+    http://wiki.freeradius.org/Mac-Auth
+    https://community.arubanetworks.com/t5/Security/MAC-auth-via-RADIUS-need-to-set-username-in-return-attributes/td-p/24630
+    https://carloalbertoscola.it/2019/network/security/linux/freeradius-3-setup-mysql-eap-ttls/
 
 Figured out a way using SQL xlat. The FreeRadius wiki has an extra " that was causing the sql xlat to fail. Here is the solution:
 
